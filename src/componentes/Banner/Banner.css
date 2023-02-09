@@ -1,8 +1,8 @@
-.banner {
-
-   background-color: #90EE90;
-}
-
 .banner img {
-    width: 250px;
+    width: 25%;
+    margin: 65px 750px -690px;
+    display: flex;
 }
+
+
+
