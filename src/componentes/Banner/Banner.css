@@ -1,7 +1,13 @@
 .banner img {
-    width: 25%;
-    margin: 65px 750px -690px;
+    width: 10%;
     display: flex;
+    margin: 0 100vh;
+
+    
+}
+
+.banner {
+    background-color: #DCDCDC;
 }
 
 

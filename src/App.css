@@ -1,10 +1,7 @@
-.App {
-    width: 100vw;
-    height: 100vh;
-}
 
-.App-img {
-    width: 25%;
-    margin: 65px 750px -670px;
-    
+.logo {
+    display: block;
+    margin: 0 100vh;
+    width: 10%;
+
 }

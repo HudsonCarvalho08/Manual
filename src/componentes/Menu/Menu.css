@@ -4,18 +4,21 @@
     height: 80px;
     background-color: white;
     
+
+    
 }
 
+
+
 .menu {
-    
-    background-color: white;
-    margin: 0;
+
     width: 20vw;
     height: 110vh;
     text-align: left;
     display: inline-block;
     overflow: auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
    
 
 }
@@ -27,6 +30,7 @@
     display: grid;
     margin: 0;
     cursor: pointer;
+   
     
     
     color: black;
@@ -54,7 +58,7 @@
 
 .menu-2:hover {
     cursor: pointer;
-    color: black;
+    color: #000000;
     padding: 10px 5px 5px;
 }
 
@@ -63,11 +67,9 @@
     display: flex;
     padding: 5px;
     cursor: pointer;
-    color: black;   
+    color: #000000;   
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-    
-    
+
     
 }
 
@@ -78,12 +80,16 @@
     margin: 2vh 1vh;
     padding: 0 2px 15px;
     
-    
-    
-    
 }
 
+.botao:hover {
+    color: #FF0000
+}
 
+.botao-2:hover {
+    color: #FF0000;
+    
+}
 
 
 

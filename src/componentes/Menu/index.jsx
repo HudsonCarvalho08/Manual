@@ -4,14 +4,18 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
+import { useNavigate } from 'react-router-dom';
  
    
 
 
 const Menu = () => {
+  const navigate = useNavigate();
+
     return( 
+      
      <header className="main">
+      
       <div className="menu">
           
           <ul className="menu-1">
@@ -34,10 +38,10 @@ const Menu = () => {
             <Typography>Allsafe</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <buttom className="botao">
+            <li className="botao" onClick={() => navigate('./Allsafe/InstalacaoPage')}>
               Instalação
-            </buttom>
-            <buttom className="botao-2">
+            </li>
+            <buttom className="botao-2" onClick={() => navigate('./Allsafe/ConfiguracaoPage')}>
               Configuração
             </buttom>
           </AccordionDetails>
@@ -51,7 +55,7 @@ const Menu = () => {
             <Typography>EDBKP</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <buttom className="botao-2">
+            <buttom  className="botao-2" onClick={() => navigate('/EDBKP')}>
               Configuração
             </buttom>
           </AccordionDetails>
@@ -84,10 +88,10 @@ const Menu = () => {
             <Typography>Uninfe</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <buttom className="botao">
+            <buttom className="botao" onClick={() => navigate('./Uninfe/InstalacaoPage_uninfe')}>
               Instalação
             </buttom>
-            <buttom className="botao-2">
+            <buttom className="botao-2" onClick={() => navigate('./Uninfe/ConfiguracaoPage_uninfe')}>
               Configuração
             </buttom>
           </AccordionDetails>

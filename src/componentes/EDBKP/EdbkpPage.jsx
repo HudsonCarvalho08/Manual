@@ -1,13 +1,13 @@
 
 import './edbkp.css'
 
-const EDBKP = () => {
+const EdbkpPage = () => {
     return(
         <main className="principal">
     
              <div className="teste">
                 
-                <h1>Configuração</h1>
+                <h1 className="texto">Configuração</h1>
                 <p>1º Passo: Ir nas configurações</p>
                 <img src="/imagens/Pri_Passo.png" alt="O primeiro passo" />
                 <p>2º Passo: Clicar em adicionar para incluir uma configuração do backup</p>
@@ -18,9 +18,7 @@ const EDBKP = () => {
                      <img src="/imagens/Ter_Passo.png" alt="O segundo passo" />
             </div>
           
-            
-            
-           
+
                
         </main>
      
@@ -28,4 +26,4 @@ const EDBKP = () => {
 }
 
 
-export default EDBKP
+export default EdbkpPage
