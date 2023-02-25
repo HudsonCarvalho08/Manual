@@ -1,12 +1,12 @@
 .allsafe {
-    display: block;
-    margin: 0vh 75vh;
+    display: inline-block;
+    margin: 15vh 85vh;
     text-align: justify;
 
 }
 
 .allsafe img {
-    display: flex;
+    display: inline-block;
     margin: 0 0;
 
 }

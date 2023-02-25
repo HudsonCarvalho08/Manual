@@ -19,12 +19,12 @@ const Menu = () => {
       <div className="menu">
           
           <ul className="menu-1">
-              <h2 className="menu-2">Edilsystem</h2>
+              <h2 className="menu-2" onClick={() => navigate('./Menu/index')}>Edilsystem</h2>
       
           </ul>
 
           <ul className="menu-1">
-              <h2 className="titulo">Configuração e Instalação</h2>
+              <h2 className="titulo" >Configuração e Instalação</h2>
       
           </ul>
 

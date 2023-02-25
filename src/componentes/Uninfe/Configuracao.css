@@ -1,11 +1,16 @@
 .configuracao {
     display: inline-block;
-    margin: 0vh 85vh;
+    margin: 15vh 65vh;
+    height: 80vh;
+    width: 100%;
+    text-align: justify;
 }
+
 
 
 .configuracao img {
     display: inline-block;
-    margin: 0 0 2vh;
+    margin: 0 0;
     padding: 0 0 3vh;
+
 }

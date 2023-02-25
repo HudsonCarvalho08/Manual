@@ -3,7 +3,7 @@ import './Configuracao.css'
 const ConfiguracaoPage = () => {
     return (
         <main className="configuracao">
-            <div className="configuracao-1">
+            <div>
                 <h1>Configuração</h1>
                 <p>1º Passo: Pedir ao gerente do suporte para cadastrar o CNPJ da empresa que for instalar o Allsafe</p>
                 <p>2° Passo: Executar o Allsafe, depois clicar em Adicionar e selecionar os campos informados pela seta indicando os campos</p>
