@@ -27,27 +27,17 @@ function App() {
   return (
     <header>
      <Banner /> 
-        
-      
       <Router>
           
         <Menu />
-        
-        
-      
+
           <Routes>
-        
+
               <Route path='/EDBKP' element={<EdbkpPage/>} />
               <Route path='/Allsafe/InstalacaoPage' element={<InstalacaoPage/>} />
               <Route path='/Allsafe/ConfiguracaoPage' element={<ConfiguracaoPage/>} />
               <Route path='/Uninfe/InstalacaoPage_uninfe' element={<InstalacaoPage_uninfe/>} />
               <Route path='/Uninfe/ConfiguracaoPage_uninfe' element={<ConfiguracaoPage_uninfe/>} />
-              
-            
-              
-            
-            
-              
 
             </Routes>
             

@@ -4,7 +4,7 @@ import './Banner.css'
 function Banner() {
    return( 
     <header className="banner">
-      <img src="/imagens/Edil.png" alt="Logo da Edilsystem" />
+      <img src="/imagens/Edil.PNG" alt="Logo da Edilsystem" />
     </header>
    )
 }
