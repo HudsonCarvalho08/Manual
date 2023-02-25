@@ -18,15 +18,15 @@ const Menu = () => {
       
       <div className="menu">
           
-          <ul className="menu-1">
+          <div className="menu-1">
               <h2 className="menu-2" onClick={() => navigate('./Menu/index')}>Edilsystem</h2>
       
-          </ul>
+          </div>
 
-          <ul className="menu-1">
+          <div className="menu-1">
               <h2 className="titulo" >Configuração e Instalação</h2>
       
-          </ul>
+          </div>
 
           <div className="menu">
         <Accordion className="menu-3">
@@ -96,10 +96,10 @@ const Menu = () => {
             </buttom>
           </AccordionDetails>
         </Accordion>
-        <ul className="menu-1">
-              <h2 className="menu-2">Emissão de CT-e</h2>
+          <div className="menu-1">
+              <h2 className="titulo">Emissão de CT-e</h2>
       
-          </ul>
+          </div>
 
           <Accordion>
           <AccordionSummary
@@ -122,10 +122,10 @@ const Menu = () => {
           </AccordionDetails>
         </Accordion>
 
-        <ul className="menu-1">
-              <h2 className="menu-2">Emissão de MDF-e</h2>
+          <div className="menu-1">
+              <h2 className="titulo">Emissão de MDF-e</h2>
       
-          </ul>
+          </div>
 
           <Accordion>
           <AccordionSummary
