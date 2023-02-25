@@ -5,7 +5,7 @@ const EdbkpPage = () => {
     return(
         <main className="principal">
     
-             <div className="teste">
+             <div className="teste-02">
                 
                 <h1 className="texto">Configuração</h1>
                 <p>1º Passo: Ir nas configurações</p>

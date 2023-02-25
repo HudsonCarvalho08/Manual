@@ -1,8 +1,16 @@
-.configuracao {
+
+.configuracao-1 {
     display: inline-block;
     margin: 0vh 85vh;
+    text-align: justify;
 }
 
+.teste {
+    display: grid;
+    text-align: justify;
+    margin: 3vh
+
+}
 
 .configuracao img {
     display: inline-block;

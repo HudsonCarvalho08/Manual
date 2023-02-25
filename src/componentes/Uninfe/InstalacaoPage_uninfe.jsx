@@ -2,9 +2,9 @@ import './Instalacao.css'
 
 const InstalacaoPage_uninfe = () => {
     return (
-        <main className="configuracao">
-            <div className="configuracao-1">
-                <h1>Instalação</h1>
+        <main>
+            <div className="instalacao">
+                <h1 className="teste">Instalação</h1>
                 <p>1º Passo: Ir nas pasta de algum dos suportes na pública e pegar o instalador do uninfe</p>
                 <p>2º Passo: Clicar em aceitar a instalação do Uninfe</p>
                 <img src="/imagens/Sec_Passo_uninfe.png" alt="O segundo passo" />
