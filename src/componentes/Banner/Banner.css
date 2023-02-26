@@ -6,6 +6,12 @@
     
 }
 
+.logo img {
+
+    width: 25%;
+
+}
+
 .banner {
     background-color: #DCDCDC;
     position: fixed;

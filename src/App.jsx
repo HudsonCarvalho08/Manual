@@ -22,7 +22,9 @@ function App() {
    
 
   return (
+    
     <header>
+ 
      <Banner /> 
       <Router>
           

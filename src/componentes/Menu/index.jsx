@@ -14,7 +14,7 @@ const Menu = () => {
 
     return( 
       
-     <header className="main">
+    <header className="main">
       
       <div className="menu">
           
