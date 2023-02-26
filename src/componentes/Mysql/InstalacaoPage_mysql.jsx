@@ -59,6 +59,21 @@ const InstalacaoPage_mysql = () => {
                 <img src="/imagens/odbc_install_04.png" alt="Quinto passo" />
                 <p>6º Passo: Clicar em Finish</p>
                 <img src="/imagens/odbc_install_05.png" alt="Sexto passo" />
+                <p>7º Passo: Depois ir em meu computador, clicar com o botão direito e propriedades</p>
+                <p>8º Passo: Clicar em "Configurações avançadas do sistema"</p>
+                <img src="/imagens/mysql_install_variaveis_de_ambiente_01.png" alt="Setimo passo" />
+                <p>9º Passo: Clicar em "Variáveis de Ambiente"</p>
+                <img src="/imagens/mysql_install_variaveis_de_ambiente_02.png" alt="Nono passo" />
+                <p>10º Passo: Clicar em "Path" e depois em "Editar"</p>
+                <img src="/imagens/mysql_install_variaveis_de_ambiente_03.png" alt="Decimo passo" />
+                <p>11º Passo: Clicar em "Novo" e copiar a pasta bin do Mysql localizada na maioria das vezes em: C:\Program Files\MySQL\MySQL Server 8.0\bin</p>
+                <img src="/imagens/mysql_install_variaveis_de_ambiente_04.png" alt="Decimo primeiro passo" />
+                <p>12º Passo: Clicar em "ok" e depois fechar</p>
+                <img src="/imagens/mysql_install_variaveis_de_ambiente_05.png" alt="Decimo segundo passo" />
+
+
+
+                
             </div>
 
            
