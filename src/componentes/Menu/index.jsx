@@ -73,7 +73,7 @@ const Menu = () => {
             <buttom className="botao">
               Instalação
             </buttom>
-            <buttom className="botao-2">
+            <buttom className="botao-2" onClick={() => navigate('./Edsys/ConfiguracaoPage_edsys')}>
               Configuração
             </buttom>
           </AccordionDetails>
@@ -92,6 +92,24 @@ const Menu = () => {
               Instalação
             </buttom>
             <buttom className="botao-2" onClick={() => navigate('./Uninfe/ConfiguracaoPage_uninfe')}>
+              Configuração
+            </buttom>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography>Banco de Dados Mysql</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <buttom className="botao" onClick={() => navigate('./Mysql/InstalacaoPage_mysql')}>
+              Instalação
+            </buttom>
+            <buttom className="botao-2" onClick={() => navigate('./Mysql/ConfiguracaoPage_mysql')}>
               Configuração
             </buttom>
           </AccordionDetails>

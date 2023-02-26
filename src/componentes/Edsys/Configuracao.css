@@ -1,0 +1,13 @@
+.edsys {
+    margin: 15vh 75vh;
+    display: inline-block;
+    height: 80vh;
+    text-align: justify;
+}
+
+
+.edsys img {
+    display: grid;
+    width: 190%;
+    
+}

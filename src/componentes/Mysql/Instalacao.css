@@ -1,0 +1,32 @@
+.mysql {
+    margin: 10vh 70vh;
+    display: inline-block;
+    text-align: justify;
+}
+
+.texto-mysql {
+    display: block;
+    margin: 3vh 3vh;
+    text-align: justify;
+    
+}
+
+.mysql-teste {
+    margin: 0 90vh;
+    display: inline-block;
+    text-align: justify;
+   
+}
+
+.mysql img {
+    margin: 0;
+    display: inline-block;
+}
+
+
+
+.link-mysql {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
