@@ -13,11 +13,11 @@
 
 .menu {
 
-    width: 25vw;
+    width: 23vw;
     height: 110vh;
     text-align: left;
     display: inline-block;
-    overflow: auto;
+    overflow: scroll;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     
@@ -107,6 +107,8 @@
 
     .menu {
         margin: 0;
+        font-size: 15px;
+        width: 18vh;
     }
 
     .menu-1 {
@@ -120,8 +122,11 @@
 
     .menu-2 {
         text-align: left;
-        margin: 55px 7px;
+        margin: 75px 7px;
+        font-size: 18px;
     }
+
+   
 
     .titulo {
         font-size: 14px;

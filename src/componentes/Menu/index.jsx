@@ -15,6 +15,7 @@ const Menu = () => {
     return( 
       
     <header className="main">
+
       
       <div className="menu">
           
@@ -35,15 +36,15 @@ const Menu = () => {
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
-            <Typography>Allsafe</Typography>
+            <Typography className="menu-4">Allsafe</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <li className="botao" onClick={() => navigate('./Allsafe/InstalacaoPage')}>
               Instalação
             </li>
-            <buttom className="botao-2" onClick={() => navigate('./Allsafe/ConfiguracaoPage')}>
+            <li className="botao-2" onClick={() => navigate('./Allsafe/ConfiguracaoPage')}>
               Configuração
-            </buttom>
+            </li>
           </AccordionDetails>
         </Accordion>
         <Accordion>
@@ -55,9 +56,9 @@ const Menu = () => {
             <Typography>EDBKP</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <buttom  className="botao-2" onClick={() => navigate('/EDBKP')}>
+            <li  className="botao-2" onClick={() => navigate('/EDBKP')}>
               Configuração
-            </buttom>
+            </li>
           </AccordionDetails>
         </Accordion>
 
@@ -70,12 +71,12 @@ const Menu = () => {
             <Typography>EDsys</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <buttom className="botao">
+            <li className="botao">
               Instalação
-            </buttom>
-            <buttom className="botao-2" onClick={() => navigate('./Edsys/ConfiguracaoPage_edsys')}>
+            </li>
+            <li className="botao-2" onClick={() => navigate('./Edsys/ConfiguracaoPage_edsys')}>
               Configuração
-            </buttom>
+            </li>
           </AccordionDetails>
         </Accordion>
 
@@ -88,12 +89,12 @@ const Menu = () => {
             <Typography>Uninfe</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <buttom className="botao" onClick={() => navigate('./Uninfe/InstalacaoPage_uninfe')}>
+            <li className="botao" onClick={() => navigate('./Uninfe/InstalacaoPage_uninfe')}>
               Instalação
-            </buttom>
-            <buttom className="botao-2" onClick={() => navigate('./Uninfe/ConfiguracaoPage_uninfe')}>
+            </li>
+            <li className="botao-2" onClick={() => navigate('./Uninfe/ConfiguracaoPage_uninfe')}>
               Configuração
-            </buttom>
+            </li>
           </AccordionDetails>
         </Accordion>
 
@@ -106,12 +107,12 @@ const Menu = () => {
             <Typography>Banco de Dados Mysql</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <buttom className="botao" onClick={() => navigate('./Mysql/InstalacaoPage_mysql')}>
+            <li className="botao" onClick={() => navigate('./Mysql/InstalacaoPage_mysql')}>
               Instalação
-            </buttom>
-            <buttom className="botao-2" onClick={() => navigate('./Mysql/ConfiguracaoPage_mysql')}>
+            </li>
+            <li className="botao-2" onClick={() => navigate('./Mysql/ConfiguracaoPage_mysql')}>
               Configuração
-            </buttom>
+            </li>
           </AccordionDetails>
         </Accordion>
           <div className="menu-1">
@@ -128,15 +129,15 @@ const Menu = () => {
             <Typography>Emissão de CT-e</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <buttom className="botao">
+            <li className="botao">
               Emissão Normal
-            </buttom>
-            <buttom className="botao-2">
+            </li>
+            <li className="botao-2">
               Emissão de Subcontratação
-            </buttom>
-            <buttom className="botao-2">
+            </li>
+            <li className="botao-2">
               Emissão de Complementar
-            </buttom>
+            </li>
           </AccordionDetails>
         </Accordion>
 
@@ -154,12 +155,12 @@ const Menu = () => {
             <Typography>Emissão de MDF-e</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <buttom className="botao">
+            <li className="botao">
               Emissão Normal pegando CT-e
-            </buttom>
-            <buttom className="botao-2">
+            </li>
+            <li className="botao-2">
             Emissão Normal pegando NF-e
-            </buttom>
+            </li>
           </AccordionDetails>
         </Accordion>
 

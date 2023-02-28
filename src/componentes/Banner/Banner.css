@@ -17,5 +17,15 @@
     position: fixed;
 }
 
+@media screen and (max-width: 780px) {
+    
+.banner img {
+    margin: 25px 175px;
+    width: 60px;
+}
+  
+
+   
+}
 
 
