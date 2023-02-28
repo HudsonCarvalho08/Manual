@@ -7,7 +7,7 @@ const InstalacaoPage = () => {
            
             <div>
                 <h1>Instalação</h1>
-                <p>1º Passo: ir no site do Edil , para baixar o app Allsafe </p>
+                <p>1º Passo: ir no site do Edilsystem , para baixar o app Allsafe </p>
                 <nav>
                     <Link className="link"to ="https://edilsystem.com.br/site/downloads/">https://edilsystem.com.br/site/downloads/</Link>
                 </nav>
